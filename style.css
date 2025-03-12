@@ -1,37 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     background-color: #F4EDD3;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 header h1{
     background-color: #4C585B;
     color: black;
+    width: 100%;
     text-align: center;
     padding: 30px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-header nav{
+header h1:hover{
+    opacity: .9;
+    cursor: auto;
+}
+
+header h4:hover{
+    color: red;
+}
+
+nav{
+    top: 0px;
+    width: 100%;
     background-color: #A5BFCC;
-    margin-top: 0;
-    padding: 5px;
+    padding: 15px 0;
     text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header button{
+header a{
+    text-decoration: none;
     color: black;
     padding: 10px;
     margin: 10px;
     background-color: #7E99A3;
     border-color: transparent;
     border-radius: 5px;
+    transition: background 0.5s ease-in-out;
 }
 
-header button:hover{
+header a:hover{
     background-color: darkgray;
     cursor: pointer;
+    color: white;
 }
 
 section{
@@ -40,11 +59,30 @@ section{
 
 .container{
     margin: 120px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     background-color: white;
     padding: 20px 30px 30px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+article img{
+    width: 200px;
+    border-radius: 10px;
 }
 
 small{
@@ -53,6 +91,11 @@ small{
 
 footer{
     background-color: #4C585B;
+    color: white;
     text-align: center;
     padding: 20px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
