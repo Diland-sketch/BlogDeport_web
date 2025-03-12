@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F4EDD3;
+}
+
+header h1{
+    background-color: #4C585B;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav{
+    background-color: #A5BFCC;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+header button{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7E99A3;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+header button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+section{
+    border-bottom: 1px solid gray;
+}
+
+.container{
+    margin: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px 30px 30px;
+}
+
+small{
+    opacity: .7;
+}
+
+footer{
+    background-color: #4C585B;
+    text-align: center;
+    padding: 20px;
+}
